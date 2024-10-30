@@ -34,6 +34,7 @@ public class FifteenGame extends JFrame implements ActionListener {
         p.add(p3, BorderLayout.SOUTH);
         p2.setLayout(new GridLayout(4, 4));
         p3.setLayout(new FlowLayout());
+    }
 
 
 
