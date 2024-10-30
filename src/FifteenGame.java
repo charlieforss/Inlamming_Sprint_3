@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import javax.swing.*;
 
-public class tester extends JFrame implements ActionListener {
+public class FifteenGame extends JFrame implements ActionListener {
 
 
 
@@ -13,5 +13,9 @@ public class tester extends JFrame implements ActionListener {
     @Override
     public void actionPerformed(ActionEvent e) {
 
+    }
+
+    public static void main(String[] args) {
+        new FifteenGame();
     }
 }
